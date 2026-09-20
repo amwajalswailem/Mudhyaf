@@ -1,0 +1,39 @@
+
+:root {
+    --primary-gold: #C5A059;
+    --deep-green: #1B4332;
+    --sand-light: #F9F6F0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--sand-light);
+}
+
+.login-split {
+    background: linear-gradient(rgba(27, 67, 50, 0.85), rgba(27, 67, 50, 0.85)), url('https://images.unsplash.com/photo-1589182397057-b1617b71ad2c?auto=format&fit=crop&q=80&w=1200');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-primary {
+    background-color: var(--primary-gold);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    opacity: 0.95;
+    transform: translateY(-1px);
+}
+
+.input-focus:focus {
+    border-color: var(--primary-gold);
+    ring: 2px;
+    ring-color: var(--primary-gold);
+    outline: none;
+}
+
+.arabic-brand {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
